@@ -46,7 +46,7 @@ header {
 header nav ul { 
   list-style-type: none;
   display: flex;
-  margin-top: 13px;
+  margin-top: 18px;
   
 }
 
@@ -166,7 +166,7 @@ h1{
   padding: 30px 5px 10px 5px;
 }
 
-  iframe {
+iframe {
   margin: 50px 550px 50px;
 
 }
