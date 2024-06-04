@@ -267,25 +267,32 @@ footer {
     border-top: 1.5px solid rgb(126, 197, 255);
     margin-top: 70px;
     padding-top: 10px;
-  
-  }
+    font-family: "Poppins";
+    font-size: 15px;
       
-  footer nav ul { 
-    list-style-type: none;
-    display: flex;
-    margin-top: 70px;
-    
   }
-  
-  footer nav ul a{ 
-    color: white;
-    font-family: "poppins";
-    margin: 10px;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 50px;
+
+footer li {
+  align-items: flex-start;
+  font-size: 10px;
+  color: azure;
+  text-decoration: none;
 
 }
+
+footer li a{
+  align-items: flex-start;
+  color: azure;
+  text-decoration: none;
+
+}
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    font-family: "Poppins";
+}
+
 
 h2{ 
     font-size: 30 px;
@@ -296,21 +303,28 @@ h2{
 
 
 .historia {
-  font-size: 15px;
-  font-family: "poppins";
-  font-weight: 400;
-  font-style: normal;
-  color: azure;
-  text-align: center;
-  background: linear-gradient(to bottom, rgb(0 0 0 /.5), rgb( 0 0 0 /.5)), url(court.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 1200px;
-  height: 400px;
-  display: flex;
-  padding: 30px 5px 10px 5px;
-  align-items: center;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 /.5), rgb( 0 0 0 /.5)), url(court.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    padding: 30px 5px 10px 5px;
+    align-items: center;
+
+}
+
+#carouselExampleAutoplaying {
+    width: 800px;
+    height: 400px;
+    margin: 50px 50px 50px 50px;
 
 }
 
@@ -344,28 +358,28 @@ h3{
 }
 
 .clase { 
-  background-color: rgb(212, 217, 121);
-  color: azure;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  padding:15px 25px 15px 25px;
-  border-radius: 15px;
-  margin-top: 50px;
+    background-color: rgb(212, 217, 121);
+    color: azure;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding:15px 25px 15px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
  
 }
 
 .container-botones {
-  padding-bottom: 50px;
-  padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .card-group {
-  padding: 30px;
-  margin: 20px;
+    padding: 30px;
+    margin: 20px;
 }
 
 .card-title {
-  font-family: "Poppins";
+    font-family: "Poppins";
     font-size: 20px;
     font-weight: bold;
     color: rgb(107, 177, 251);
@@ -409,78 +423,78 @@ h4 {
 }
 
 .parrafocontacto {
-  font-size: 18px;
-  font-family: "poppins", sans-serif;
-  color: rgb(107, 177, 251);
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    color: rgb(107, 177, 251);
+    text-align: center;
+    margin-bottom: 20px;
 
 }
 
 .crecemosjuntos {
-  font-size: 30px;
-  font-family: "poppins";
-  color: rgb(107, 177, 251);
-  text-align: center;
+    font-size: 30px;
+    font-family: "poppins";
+    color: rgb(107, 177, 251);
+    text-align: center;
 
 }
 .telefono {
-  font-size: 15px;
-  font-family: "poppins";
-  color: azure;
-  text-align: center;
+    font-size: 15px;
+    font-family: "poppins";
+    color: azure;
+    text-align: center;
 
 }
 
 .dirección {
-  font-size: 15px;
-  font-family: "poppins";
-  color: azure;
-  text-align: center;
+    font-size: 15px;
+    font-family: "poppins";
+    color: azure;
+    text-align: center;
 
 }
 
 .redes {
-  font-size: 15px;
-  font-family: "poppins";
-  color: azure;
-  text-align: center;
+    font-size: 15px;
+    font-family: "poppins";
+    color: azure;
+    text-align: center;
 
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3,400px);
-  grid-template-rows: repeat(1, 300px);
-  row-gap: 10px;
-  column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(1, 300px);
+    row-gap: 10px;
+    column-gap: 15px;
 }
 
 .grid-container .grid-item {
-  font-size: 18px;
-  border: 1px;
-  border-radius: 15px;
-  border-style: double;
-  border-color: blueviolet;
-  padding: 5px;
+    font-size: 18px;
+    border: 1px;
+    border-radius: 15px;
+    border-style: double;
+    border-color: blueviolet;
+    padding: 5px;
   
 }
 
 .item1 {
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
 
 }
 
 .item2 {
-  grid-column: 2 / 3;
-  grid-row: 1 / 4;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
 
 }
 
 .item3 {
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
 
 }
 
