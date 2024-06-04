@@ -353,7 +353,7 @@ h3{
 }
 
 .cancha{ 
-    background-color: blueviolet;
+    background-color: rgb(212, 217, 121);
     color: azure;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
@@ -366,7 +366,7 @@ h3{
 }
 
 .clase { 
-  background-color: blueviolet;
+  background-color: rgb(212, 217, 121);
   color: azure;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -381,17 +381,43 @@ h3{
   padding-top: 30px;
 }
 
+
+
+.card-title {
+  font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(107, 177, 251);
+}
+
+.card-text {
+  font-family: "Poppins";
+    font-size: 15px;
+    font-weight: light;
+    color: rgb(107, 177, 251);
+}
+
+.btn-primary {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: medium;
+    color: azure;
+    background-color: rgb(212, 217, 121);
+    border-color: rgb(212, 217, 121);
+    border-width: 1px;
+}
+
 .grilla {
-  font-size: 18px;
-  font-family: "poppins", sans-serif;
-  color: rgb(107, 177, 251);
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    color: rgb(107, 177, 251);
+    text-align: center;
+    margin-bottom: 20px;
  
 }
 
 .grilladehorarios {
-  align-items: center;
+    align-items: center;
 
 }
 
