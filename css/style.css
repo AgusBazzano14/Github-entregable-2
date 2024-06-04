@@ -32,57 +32,34 @@
 
 
 body { 
-  background-color: rgb(1, 37, 60);
+    background-color: rgb(1, 37, 60);
 
 }
 
-header {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid rgb(126, 197, 255);
-
-}
-    
-header nav ul { 
-  list-style-type: none;
-  display: flex;
+.navbar {
+  background-color:rgb(107, 177, 251);
   margin-top: 18px;
+  font-family: "poppins";
+  --bs-navbar-color: azure;
   
 }
 
-header nav ul a{ 
-  color: white;
-  font-family: "poppins";
-  margin: 10px;
-  text-decoration: none;
-  text-align: center;
-
-}
-
-header div a { 
-color: white;
-font-family: "poppins";
-text-decoration: none;
-
-}
-
-header div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.navbar-nav {
+ --bs-navbar-color: azure;
+  
 
 }
 
 .wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to bottom, rgb(0 0 0 /.5), rgb( 0 0 0 /.5)), url(imagenduo.jpg); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1300px;
-  height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 /.5), rgb( 0 0 0 /.5)), url(imagenduo.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 600px;
 }
 
 h1{ 
@@ -105,7 +82,7 @@ h1{
 
 .socios {
     font-family: "Poppins", sans-serif;
-    background-color:rgb(5, 87, 138);
+    background-color:rgb(107, 177, 251);
     color: white;
     border-color: white;
     border-style: solid;
@@ -286,6 +263,7 @@ iframe {
 footer {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(107, 177, 251);
     border-top: 1.5px solid rgb(126, 197, 255);
     margin-top: 70px;
     padding-top: 10px;
@@ -381,7 +359,10 @@ h3{
   padding-top: 30px;
 }
 
-
+.card-group {
+  padding: 30px;
+  margin: 20px;
+}
 
 .card-title {
   font-family: "Poppins";
