@@ -321,13 +321,24 @@ h2{
 
 }
 
-#carouselExampleAutoplaying {
-    width: 800px;
-    height: 400px;
-    margin: 50px 50px 50px 50px;
-
+#p-list1 {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: azure;
 }
 
+#p-list2 {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: azure;
+}
+
+  #p-list3 {
+    font-family: "Poppins";
+    font-size: 13px;
+    color: azure;
+  }
+    
 h3{ 
     font-size: 30px;
     font-weight: lighter;
